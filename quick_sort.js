@@ -23,4 +23,6 @@ let quick_sort = (arr) => {
 let end = performance.now();
 console.log(`Execution Time : ${(end - strt).toFixed(3)}`);
 
+
+
 console.log(quick_sort(arr_builder(20, 109)));
