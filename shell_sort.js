@@ -8,6 +8,7 @@ let shell_sort = (arr) => {
         // console.log(`Gap outer :${gap}`);
         for (let i = gap; i < n; i += 1) {
             // console.log(`Gap inner :${gap}`);
+            
             let temp = arr[i];
             // console.log(arr[i])
 
