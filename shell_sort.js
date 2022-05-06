@@ -27,5 +27,5 @@ let shell_sort = (arr) => {
     return arr
 }
 
+console.log(shell_sort(arr_builder(13,100)));
 
-console.log(shell_sort(arr_builder(30,100)));
