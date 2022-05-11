@@ -21,7 +21,7 @@ let quick_sort = (arr) => {
     return quick_sort(left).concat(pivot, quick_sort(right))
 }
 let end = performance.now();
-console.log(`Execution Time : ${(end - strt).toFixed(3)}`);
+console.log(`Execution Time : ${(end - strt).toFixed(3)}ms`);
 
 
 

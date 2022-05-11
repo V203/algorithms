@@ -35,7 +35,7 @@ let heap_sort = (arr)=>{
                         heapy(arr,i,0);
                 }
                 let end = performance.now()
-                console.log(`Execution Time : ${end - start} ms`);
+                console.log(`Execution Time : ${end - start}ms`);
                 return arr
 }
 

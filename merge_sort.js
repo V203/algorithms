@@ -17,7 +17,7 @@ let merg_sort = (array) => {
          end = performance.now()
         return [...array, ...left, ...right]
     }
-    console.log(`Execution Time : ${(end - strt).toFixed(3)}`)
+    console.log(`Execution Time : ${(end - strt).toFixed(3)}ms`)
     
     
     let half = array.length / 2

@@ -9,7 +9,7 @@ let basic_for_loop = (arr) => {
         console.log(arr[i]);
     }
     let end = performance.now()
-    console.log(`Execution Time : ${end - start} ms`);
+    console.log(`Execution Time : ${end - start}ms`);
     return arr
 
 }

@@ -24,7 +24,7 @@ let shell_sort = (arr) => {
     }
     let end = performance.now();
     let run_time = end - start
-    console.log(`Execution time : ${run_time.toFixed(3)}`);
+    console.log(`Execution time : ${run_time.toFixed(3)}ms`);
     return arr
 }
 

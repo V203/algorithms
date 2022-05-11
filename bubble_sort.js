@@ -15,7 +15,7 @@ let b_sort = (param) => {
         }
     }
     let end = performance.now();
-    console.log(`Execution Time : ${(end - strt).toFixed(3)}`);
+    console.log(`Execution Time : ${(end - strt).toFixed(3)}ms`);
     return param;
 };
 
