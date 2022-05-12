@@ -26,5 +26,10 @@ let binary_search = (arr, param)=>{
     return `Not found in the Array`;
 }
 var array = [1,2,3,4,66,78,99];
-let param = 28;
+let param = 99;
 console.log(binary_search(array,param));
+
+// let {performance} = require("perf_hooks");
+// var strt = performance.now();
+// let end = performance.now();
+// console.log(`Execution Time : ${(end - strt).toFixed(3)}ms`);
